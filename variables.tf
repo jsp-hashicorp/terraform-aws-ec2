@@ -13,10 +13,10 @@ variable "instanceType" {
   description = <<-EOT
 "
 EC2 인스턴스 타입 설정
-   1. t4.micro
-   2. t4.small
-   3. t4.medium
-   4. t4.large
+   1. t3.micro
+   2. t3.small
+   3. t3.medium
+   4. t3.large
 "
 EOT
 }
