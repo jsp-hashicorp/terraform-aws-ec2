@@ -13,7 +13,7 @@ provider "aws" {
   region  = var.deployRegion
 }
 
-resource "aws_instance" "cat_server" {
+resource "aws_instance" "app_server" {
   ami           = var.amiId
   instance_type = var.instanceType
 
